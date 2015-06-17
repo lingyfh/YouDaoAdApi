@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <Button
+        android:id="@+id/ad_request_btn"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:text="request Ad"/>
+
+    <Button
+        android:id="@+id/ad_show_btn"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:text="report Ad show"/>
+
+    <Button
+        android:id="@+id/ad_click_btn"
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:text="report Ad click"/>
+
+    <TextView
+        android:id="@+id/ad_desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="loading"/>
+</LinearLayout>
+
